@@ -1,0 +1,21 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(26, 8, 8);
+    font-size: 20px;
+    font-weight: 500;
+}
