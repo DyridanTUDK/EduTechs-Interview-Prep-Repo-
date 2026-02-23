@@ -14,7 +14,8 @@ export default function TaskCreator({setData, data}) {
     const sendTask = () =>{
         setData({...data, assigned:[...data.assigned, {assigned:Task, status:"assigned"}]})
          //this takes the html and does not causes any rerenders
-        placeholderRef.current.input.value = " "
+        placeholderRef.current.input.value = ""
+        setLenght(0)
         SetTask(()=>   placeholderRef.current.input.value )
     }
   return (
